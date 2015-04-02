@@ -1,7 +1,5 @@
 # fmp_progressBar
-A lightweight FileMaker module to display a progress bar.
+A lightweight FileMaker module to display a progress bar. More details at http://cris.lc/fmpprogressbar
 
-
-##TODOS:
- * Backport code changes from FM13 to FM11 file
- * update readme/changelog and documentation with new indefinite loader
+##Changelog
+ * v1.1.0 - Introduces an indefinite spinner, for situations where the "percent complete" is unknown (e.g., when calling a web service)
